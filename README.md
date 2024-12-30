@@ -7,3 +7,4 @@ Build 20 frontend projects from scratch using HTML5, JavaScript and CSS for begi
 | 02  | Movie Seat Booking |
 | 03  | Custom Video Player |
 | 04  | Exchange Rate Calculator |
+| 05  | DOM Array Methods |
