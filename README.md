@@ -11,3 +11,4 @@ Build 20 frontend projects from scratch using HTML5, JavaScript and CSS for begi
 | 06  | Modal Menu Slider |
 | 07  | Hangman Game |
 | 08  | Meal Finder |
+| 09  | Expense Tracker |
