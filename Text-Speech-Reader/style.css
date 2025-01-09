@@ -125,7 +125,7 @@ main {
     margin: 0;
     padding: 10px;
     text-align: center;
-    height: 100%;
+    height: inherit;
 }
 
 @media(max-width: 1000px) {
