@@ -15,3 +15,4 @@ Build 20 frontend projects from scratch using HTML5, JavaScript and CSS for begi
 | 10  | Music Player |
 | 11  | Infinite Scroll |
 | 12  | Speed Typing Game |
+| 13  | Text Speech Reader |

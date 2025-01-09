@@ -57,6 +57,10 @@ h1 {
     transition: all 1s ease-in-out;
 }
 
+.text-box.show {
+    transform: translate(-50%, 0);
+}
+
 .text-box select {
     background-color: darksalmon;
     border: 0;
@@ -124,19 +128,19 @@ main {
     height: 100%;
 }
 
-@media(max-width: 1100px) {
+@media(max-width: 1000px) {
     main {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
-@media(max-width: 760px) {
+@media(max-width: 900px) {
     main {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media(max-width: 500px) {
+@media(max-width: 700px) {
     main {
         grid-template-columns: 1fr;
     }
