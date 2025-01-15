@@ -19,3 +19,4 @@ Build 20 frontend projects from scratch using HTML5, JavaScript and CSS for begi
 | 14  | Memory Cards |
 | 15  | Lyrics Search |
 | 16  | Relaxer App |
+| 17  | Breakout Game |
