@@ -20,3 +20,4 @@ Build 20 frontend projects from scratch using HTML5, JavaScript and CSS for begi
 | 15  | Lyrics Search |
 | 16  | Relaxer App |
 | 17  | Breakout Game |
+| 18  | New Year Countdown |
