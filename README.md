@@ -21,3 +21,4 @@ Build 20 frontend projects from scratch using HTML5, JavaScript and CSS for begi
 | 16  | Relaxer App |
 | 17  | Breakout Game |
 | 18  | New Year Countdown |
+| 19  | Speak Number Guess |
