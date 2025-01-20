@@ -137,7 +137,7 @@ function moveBall() {
 function increaseScore() {
     score++;
 
-    if (score % (brickRowCount * brickRowCount) === 0) {
+    if (score % (brickRowCount * brickColumnCount) === 0) {
         showAllBricks();
     }
 }
