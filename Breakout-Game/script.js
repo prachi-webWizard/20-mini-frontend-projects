@@ -5,6 +5,7 @@ const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
 let score = 0;
+let highScore = localStorage.getItem('highScore') ? localStorage.getItem('highScore') : 0;
 
 const brickRowCount = 9
 const brickColumnCount = 5;
@@ -72,6 +73,7 @@ function drawPaddle() {
 function drawScore() {
     ctx.font = '20px Arial';
     ctx.fillText(`Score: ${score}`, canvas.width - 100, 30);
+    ctx.fillText(`High Score: ${highScore}`, canvas.width - 250, 30);
 }
 
 // Draw bricks on canvas
@@ -129,6 +131,15 @@ function moveBall() {
     // Hit bottom wall - Lose
     if (ball.y + ball.size > canvas.height) {
         showAllBricks();
+
+        if (highScore && score > highScore) {
+            localStorage.setItem('highScore', score);
+            highScore = score;
+        } else if (!localStorage.getItem('highScore')) {
+            highScore = score;
+            localStorage.setItem('highScore', highScore);
+        }
+        
         score = 0;
     }
 }
