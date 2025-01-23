@@ -74,4 +74,8 @@ h3 {
     .container {
         grid-template-columns: 1fr;
     }
+
+    h2 {
+        margin: 20px;
+    }
 }
