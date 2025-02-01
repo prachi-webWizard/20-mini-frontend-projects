@@ -1,6 +1,8 @@
 # 20-mini-frontend-projects
 Build 20 frontend projects from scratch using HTML5, JavaScript and CSS for beginners. No frameworks or libraries
 
+👉 Check it out here: https://20-mini-frontend-projects.vercel.app/
+
 |  #  |            Project             |
 | :-: | :----------------------------: | 
 | 01  | Form Validator |
@@ -23,3 +25,5 @@ Build 20 frontend projects from scratch using HTML5, JavaScript and CSS for begi
 | 18  | New Year Countdown |
 | 19  | Speak Number Guess |
 | 20  | Product Filtering |
+
+![image](https://github.com/user-attachments/assets/09f6b99d-2b2f-425d-9225-adcbb7fa6188)
