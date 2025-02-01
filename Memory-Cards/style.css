@@ -121,7 +121,7 @@ h1 button {
 }
 
 .inner-card-front::after, .inner-card-back::after {
-    content: '\f021 Flip';
+    content: '\f021  Flip';
     font-family: 'Font Awesome 5 Free', Lato, sans-serif;
     position: absolute;
     top: 10px;
@@ -130,6 +130,17 @@ h1 button {
     font-size: 16px;
     color: #ddd;
 }
+
+/* .inner-card-front::before, .inner-card-back::before {
+    content: '\f00d  Delete'; 
+    font-family: 'Font Awesome 5 Free', Lato, sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+    font-weight: bold;
+    font-size: 16px;
+    color: #ddd;
+} */
 
 .navigation {
     display: flex;
@@ -186,4 +197,9 @@ h1 button {
     padding: 12px;
     min-width: 500px;
     max-width: 100%;
+}
+
+.fas::before, .fas {
+    padding-right: 5px;
+    letter-spacing: 1px;
 }
