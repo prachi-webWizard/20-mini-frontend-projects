@@ -50,6 +50,7 @@ function createCard(data, index) {
     card.innerHTML = `
          <div class="inner-card">
           <div class="inner-card-front">
+            <button class="delete btn" onclick="deleteCard(${index})"><i class="fas fa-trash">Delete</i></button>
             <p>${data.question}</p>
           </div>
           <div class="inner-card-back">
@@ -66,6 +67,13 @@ function createCard(data, index) {
     cardsContainer.appendChild(card);
 
     updateCurrentText();
+}
+
+// Delete single card
+function deleteCard(index) {
+    const cards = JSON.parse(localStorage.getItem('cards'));
+    const filteredCards = cards.filter((el, ind) => ind !== index);
+    setCardsData(filteredCards);
 }
 
 // Show number of cards
