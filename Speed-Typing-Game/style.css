@@ -95,6 +95,12 @@ input {
     right: 20px;
 }
 
+.high-score-container {
+    position: absolute;
+    top: 60px;
+    right: 110px;
+}
+
 .time-container {
     position: absolute;
     top: 60px;

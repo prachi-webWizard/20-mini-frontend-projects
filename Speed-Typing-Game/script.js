@@ -1,6 +1,7 @@
 const word = document.getElementById('word');
 const text = document.getElementById('text');
 const scoreEl = document.getElementById('score');
+const highScoreEl = document.getElementById('highScore');
 const timeEl = document.getElementById('time');
 const endgameEl = document.getElementById('end-game-container');
 const settingsBtn = document.getElementById('settings-btn');
@@ -37,6 +38,8 @@ let randomWord;
 
 // Init score
 let score = 0;
+let highScore = localStorage.getItem('highScore') !== null ? localStorage.getItem('highScore') : 0;
+highScoreEl.innerText = highScore;
 
 // Init time
 let time = 10;
@@ -91,6 +94,10 @@ function gameOver() {
     `;
 
     endgameEl.style.display = 'flex';
+    if (score > highScore) {
+        localStorage.setItem('highScore', score);
+        highScoreEl.innerText = score;
+    }
 }
 
 addWordToDOM();
